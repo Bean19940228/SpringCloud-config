@@ -9,6 +9,9 @@ spring:
   profiles: dev
   application:
     name: springcloud-config-yellowbean-dev
+    
+server:
+  port: 6666
 
 ---
 
@@ -16,3 +19,6 @@ spring:
   profiles: test
   application:
     name: springcloud-config-yellowbean-test
+    
+server:
+  port: 6677
