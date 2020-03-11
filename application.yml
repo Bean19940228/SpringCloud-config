@@ -11,7 +11,7 @@ spring:
     name: springcloud-config-yellowbean-dev
     
 server:
-  port: 3356
+  port: 3355
 
 ---
 
