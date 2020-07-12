@@ -47,11 +47,11 @@ public class MySecurityConfig extends WebSecurityConfigurerAdapter
 		//开启记住我功能
 		//会在login界面加一个勾选框
 		//底层实际是给浏览器发了一个2周后过期的cookie
-		//点击/logout后会清除此cookie
+		//点击/logout后会清除此cookie;
 		http.rememberMe();
 	}
 	
-	//定义认证规则
+	//定义认证规则;
 	@Override
 	protected void configure(AuthenticationManagerBuilder auth) throws Exception
 	{
